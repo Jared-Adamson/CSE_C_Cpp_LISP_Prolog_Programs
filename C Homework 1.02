@@ -1,0 +1,27 @@
+// Jared Adamson
+// Homework 1.02
+
+#include <stdio.h>
+
+#pragma warning(disable: 4996)
+
+#define NUM 2
+
+int main()
+{
+	int input;
+	int result;
+	printf("Enter an integer number: ");
+	scanf("%d", &input);
+
+	result = input % NUM;
+
+	if (result != 0) {
+		printf("\n\nNumber %d is Odd.", input);
+	}
+	else if (result == 0) {
+		printf("\n\nNumber %d is Even.", input);
+	}
+
+	return 0;
+}
