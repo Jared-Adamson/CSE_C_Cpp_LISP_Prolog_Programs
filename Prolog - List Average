@@ -1,0 +1,20 @@
+% Jared Adamson
+% Prolog Average a List
+
+    
+lsum([], 0).
+lsum([H | T], S) :-
+	lsum( T, S1),
+	S is H + S1.
+
+lcount([], 0).
+lcount([_| T], S) :-
+	lcount(T, S1),
+	S is S1 + 1.
+
+lavr(L, A) :-
+	lsum(L, S),
+	lcount(L, T),
+        A is S / T.
+	
+        
