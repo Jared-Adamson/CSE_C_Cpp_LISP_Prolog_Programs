@@ -1,0 +1,144 @@
+// Jared Adamson
+// Decrypts a message.
+
+//includes
+#include <stdio.h>
+#include <string.h>
+
+//macros: constants
+#define CHUNK_LENGTH 20+1  //each chunk has twenty characters, we add 1 so
+//there is space for the null terminator.
+#define NUMBER_OF_CHUNKS 4 //the message is spread across 4 chunks.
+#define DECRYPTION_SHIFT 5 //this is the ASCII table shift used for decryption.
+
+
+
+//forward declarations
+void sort_chunks();
+void decrypt_chunks();
+void display_chunks();
+
+char chunks[NUMBER_OF_CHUNKS][CHUNK_LENGTH];
+
+int main()
+{
+	//copy message into memory.
+	strcpy(chunks[0], "2~b%tzlmy%yt%gj%jstz");
+	strcpy(chunks[1], "1;95P%`tk%rfns%rjrtw");
+	strcpy(chunks[2], "4nqq%Lfyjx%%%%%%%%%%");
+	strcpy(chunks[3], "3lm%ktw%fs~gti~3%2%G");
+
+	//the format of a chunk is a single number indicating its order in overall
+	//message followed twenty encrypted characters.
+
+
+	//reorder chunks in message by sorting them based on the first digital
+	//they contain. looking above, one can see they are currently in the order
+	//2, 1, 4, 3 but should be ordered 1, 2, 3, 4.
+	sort_chunks();
+
+	//shift the characters in the message to produce the original characters.
+	decrypt_chunks();
+
+	//display the decrypted message.
+	display_chunks();
+
+
+	//pause the screen, uncomment if needed
+	fflush(stdin);
+	getchar();
+	
+
+	return 0;
+}
+
+//given two strings, swaps their contents in memory.
+void swap_strings(char* x, char* y)
+{
+	//create a temporary holding place for the data so we don't lose it.
+	char temp[CHUNK_LENGTH];
+
+	strcpy(temp, x);
+	strcpy(x, y);
+	strcpy(y, temp);
+}
+
+//sorts the strings the global chunks variable by the first character they contain.
+void sort_chunks()
+{
+	
+	
+	int i, j;
+
+
+	for (i = 0; i < (NUMBER_OF_CHUNKS - 1); ++i)
+	{
+		for (j = 0; j < NUMBER_OF_CHUNKS - 1 - i; ++j)
+		{
+			if (chunks[j][0] > chunks[j + 1][0])
+			{
+
+				swap_strings(chunks[j], chunks[j+1]);
+
+			}
+		}
+	}
+	
+}
+
+
+
+
+
+
+//for each string in the global chunks variable, shifts the characters in it by
+//DECRYPTION_SHIFT.
+void decrypt_chunks()
+{
+
+	int j;
+
+	for (j = 0; j < NUMBER_OF_CHUNKS; j++){
+
+		char(*ptr) = (char*) chunks[j];
+
+		while (*ptr != '\0'){
+
+			
+			*ptr = *ptr - DECRYPTION_SHIFT;
+
+			ptr++;
+
+
+		}
+
+	}
+
+}
+
+
+//displays the strings in the global chunks variable
+void display_chunks()
+{
+	
+
+	int j;
+
+	for (j = 0; j < NUMBER_OF_CHUNKS; j++){
+
+		char(*ptr) = (char*)chunks[j];
+
+		ptr++;
+
+		while (*ptr != '\0'){
+
+
+			printf("%c", *ptr);
+
+			ptr++;
+
+
+		}
+
+	}
+}
