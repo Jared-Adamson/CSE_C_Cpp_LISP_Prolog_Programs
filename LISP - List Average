@@ -1,0 +1,26 @@
+;Jared Adamson
+; Average a list
+; LISP
+
+
+(define y 0)
+(define (sum x)
+  (if (null? x)
+      0
+      (+ (car x) (sum (cdr x)))))
+
+
+(sum (list 1 2 3)) ; Test sum
+
+
+(define (count L)
+  (if (null? L) 
+     0
+     (+ 1 (count (cdr L))))) 
+  
+(count (list 1 2 3)) ; Test count
+
+(define (avg L)
+ (/ (sum L) (count L)))
+
+(avg (list 1 2 3)) ; Test the average
