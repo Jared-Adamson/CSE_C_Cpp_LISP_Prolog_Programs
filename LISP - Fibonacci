@@ -1,0 +1,18 @@
+; Jared Adamson
+; SUM Fibonacci Numbers
+
+(define (fib x)
+  (if (< x 2) x
+    (+ (fib (- x 1)) (fib (- x 2)))))
+
+
+
+(define (fib-sum x s)
+  (cond ((<= x 0) s)
+        (else
+         (+ (fib x)) (fib-sum (- x 1) (+ s (fib x))))))
+
+
+; Testing Fib-sum
+  (fib-sum 10 0)
+ 
