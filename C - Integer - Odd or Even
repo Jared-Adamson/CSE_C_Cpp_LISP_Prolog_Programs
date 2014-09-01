@@ -1,5 +1,5 @@
 // Jared Adamson
-// Homework 1.02
+// Checks if an Integer is odd or Even
 
 #include <stdio.h>
 
