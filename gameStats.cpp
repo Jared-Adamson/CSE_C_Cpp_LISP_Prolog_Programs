@@ -1,5 +1,5 @@
 //Jared Adamson
-// Game Stats
+//C++ Practice from Begining C++ Book
 // Demonstrates declaring and initializing variables
 
 #include <iostream>
@@ -26,7 +26,6 @@ int main()
 	cout << "\nscore: "		<< score << endl;
 	cout << "distance: "	<< distance << endl;
 	cout << "playAgain: "	<< playAgain << endl;
-	//skipping shieldsUp since you don't generally print Boolean values
 	cout << "lives: "		<< lives << endl;
 	cout << "aliensKilled: "<< aliensKilled << endl;
 	cout << "engineTemp: "	<< engineTemp << endl;
