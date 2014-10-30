@@ -66,7 +66,7 @@ void get_string(char* str)
 }
 
 //Tested: Ubuntu 13.04 + GCC (repo version) with ncurses-dev
-//Tested: ASU General (9/9/2013)
+//Tested: ASU General 
 #elif defined(__unix__) || defined(__apple__)
 
 #include <ncurses.h>
