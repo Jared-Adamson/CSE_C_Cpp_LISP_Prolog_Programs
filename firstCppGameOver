@@ -1,0 +1,17 @@
+//Jared Adamson
+//C++ Practice from Begining C++ Book
+// First Cpp Program - Game Over
+
+
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+  
+   cout << "Game Over" << endl;
+  
+   return 0;
+   
+}
