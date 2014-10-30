@@ -1,4 +1,5 @@
-/ Adamson_HW02_2.cpp : Defines the entry point for the console application.
+// Jared Adamson
+//HW02_2 : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -25,7 +26,7 @@ int main(void)
 {
 	clear;
 	//Add a prompt for the number of cylinders to sum. Make sure to use the control
-	//symbol for integers. [5 points]
+	//symbol for integers. 
 	int c, i;
 	float h, r, v, vtotal = 0;
 	
@@ -39,7 +40,7 @@ int main(void)
 	for (i = 1; i <= c; i++){
 		//    Within the loop, prompt for height and radius parameters (allow floating
 		//    point numbers), and calculate the volume for that particular cylinder.
-		//    [15 points]
+		//    
 		clear;
 		printf("%s%d%s\n", "Please enter the height of cylinder number ", i, ":");
 		scanf("%f", &h);
@@ -55,7 +56,7 @@ int main(void)
 	}
 
 	//Display the total volume sum back to the user. Make sure to use the right control
-	//symbol to display your result. [5 points]
+	//symbol to display your result. 
 	printf("%s%f\n", "The total volume of all of your cylinders is: ", vtotal);
 
 	system("pause");
