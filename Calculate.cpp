@@ -1,5 +1,5 @@
 //Jared Adamson
-//C++ Practice - from Begining C++
+//C++ Practice - from Beginning C++ Book
 // Calculate & Print Numbers
 
 #include <iostream>
