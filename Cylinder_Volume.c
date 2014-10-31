@@ -1,5 +1,5 @@
 // Jared Adamson
-//HW02_2 : Defines the entry point for the console application.
+//HW02_2
 
 
 #include "stdafx.h"
