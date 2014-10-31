@@ -1,5 +1,5 @@
 // Jared Adamson
-//HW02_2
+//Finds Cylinder Volume
 
 
 #include "stdafx.h"
