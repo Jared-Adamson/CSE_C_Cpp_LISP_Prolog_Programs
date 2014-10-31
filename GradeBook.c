@@ -1,3 +1,6 @@
+// Jared Adamson
+// Program to hold and compute student grades
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>		// used by malloc
