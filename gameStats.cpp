@@ -1,5 +1,5 @@
 //Jared Adamson
-//C++ Practice from Begining C++ Book
+//C++ Practice from Beginning C++ Book
 // Demonstrates declaring and initializing variables
 
 #include <iostream>
