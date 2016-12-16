@@ -1,4 +1,3 @@
-//Description: File Provided by teacher 
 //This file contains a limited set of functions to enable drawing
 //on the console in Windows and Linux.
 
