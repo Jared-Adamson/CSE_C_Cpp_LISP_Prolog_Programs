@@ -1,0 +1,67 @@
+
+Jared Adamson - P07 Testing
+
+P07 - Jared Adamson   TR 1:00pm
+
+Enter a value between $5 and $15.00 for the price: 7
+
+Enter a value between 1 and 50 for the quantity: 22
+
+Price:          7.00
+Quantity:       -858993460
+Subtotal:       -6012954220.00
+Sales Tax:      -300647711.00 at 0.05
+Shipping:       10.00
+Total Due:      -6313601921.00
+
+Thank you!
+
+Press any key to continue . . .
+
+---------------------------------------------
+Fixed Ver. test 1
+
+P07 - Jared Adamson
+
+Enter a value between $5 and $15.00 for the price: 7
+
+Enter a value between 1 and 50 for the quantity: 8
+
+
+Price:          7.00
+Quantity:       8
+Subtotal:       56.00
+Sales Tax:      2.80 at 0.05
+Shipping:       10.00
+Total Due:      68.80
+
+Thank you!
+
+Press any key to continue . . .
+-------------------------------------------------
+Fixed Ver. test 2
+
+P07 - Jared Adamson
+
+Enter a value between $5 and $15.00 for the price: 10
+
+Enter a value between 1 and 50 for the quantity: 10
+
+
+Price:          10.00
+Quantity:       10
+Subtotal:       100.00
+Sales Tax:      5.00 at 0.05
+Shipping:       10.00
+Total Due:      115.00
+
+Thank you!
+
+Press any key to continue . . .
+-------------------------------------------------------
+
+Why?
+
+First I thought that the variables might have been declared in the wrong locations to work properly but that did not fix the issue.
+
+Then I realized the Quantity value was not being passes properly due to a missed ampersand(&)  Added the missed syntax and the issue was fixed.

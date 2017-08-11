@@ -1,0 +1,64 @@
+Output -
+
+P10   Jared Adamson
+
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: List Payroll Information by Employee Name
+  B: Search Payroll Information by Name
+
+  X: Exit the Payroll Information Module
+
+Choice: a
+
+
+P10    Your Name Here
+
+Employee  Last name        F.     Rate   Wk1   Wk2   Wk3   Wk4   Total  Average
+
+  1005    Bob              B.     5.00    30    35    40    50    155    38.75
+  1009    Eldridge         M.     6.50    20    20    30    40    110    27.50
+  1004    Flores           J.     9.00    35    40    50    60    185    46.25
+  1007    Lee              J.     8.00    35    40    50    60    185    46.25
+  1002    Long_Last_Name1  L.     8.00    50    50    10    40    150    37.50
+  1006    Sanchez          M.     7.00    10    50    50    60    170    42.50
+  1018    Smit             B.     9.50    50    10    25    30    115    28.75
+  1001    Smith            J.     6.00    35    40    50    60    185    46.25
+  1010    Smitts           S.     7.00    10    30    50    30    120    30.00
+
+Records Listed: 9
+
+
+
+Procedure completed. Press Enter to continue:
+
+----------------------------------------------------------
+Search Output -
+
+P10   Your Name Here
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: List Payroll Information by Employee Name
+  B: Search Payroll Information by Name
+
+  X: Exit the Payroll Information Module
+
+Choice: b
+
+
+Enter the Employee Name to search for: bob
+
+
+P10    Jared Adamson
+
+Employee  Last name        F.     Rate   Wk1   Wk2   Wk3   Wk4   Total  Average
+
+  1005    Bob              B.     5.00    30    35    40    50    155    38.75
+
+Early exit...
+
+Procedure completed. Press Enter to continue:

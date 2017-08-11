@@ -1,0 +1,80 @@
+Testing ...
+
+P05 - Jared Adamson
+
+Enter the hourly rate and the number of hours
+worked.
+Press the enter key after entering both values.
+The hourly rate  must be between $10.00 and $15.00 inclusively.
+The hours worked must be between 1 and 50 inclusively.
+
+Enter the hourly pay rate (Between $10.00 and $15.00 inclusively.) : 600
+Enter the hourly pay rate (Between $10.00 and $15.00 inclusively.) : 10
+Enter the number of hours worked (between 1 and 50 inclusively): 500
+Enter the number of hours worked (between 1 and 50 inclusively): 50
+
+Hourly Rate:    10.00
+Hours Worked:   50
+Gross Pay:      550.00
+FICA Tax:       33.00 at 0.06
+Federal Tax:    82.50 at 0.15
+State Tax:      27.50 at 0.05
+Union Dues:     10.00
+Net Pay:        397.00
+Net Hourly:     7.94
+
+Thank You!
+
+Press any key to continue . . .
+----------------------------------------------------------
+P05 - Jared Adamson
+
+Enter the hourly rate and the number of hours
+worked.
+Press the enter key after entering both values.
+The hourly rate  must be between $10.00 and $15.00 inclusively.
+The hours worked must be between 1 and 50 inclusively.
+
+Enter the hourly pay rate (Between $10.00 and $15.00 inclusively.) : 77
+Enter the hourly pay rate (Between $10.00 and $15.00 inclusively.) : 12.75
+Enter the number of hours worked (between 1 and 50 inclusively): 20
+
+Hourly Rate:    12.75
+Hours Worked:   20
+Gross Pay:      255.00
+FICA Tax:       15.30 at 0.06
+Federal Tax:    38.25 at 0.15
+State Tax:      12.75 at 0.05
+Union Dues:     10.00
+Net Pay:        178.70
+Net Hourly:     8.93
+
+Thank You!
+
+Press any key to continue . . .
+--------------------------------------------------------------------------------
+P05 - Jared Adamson
+
+Enter the hourly rate and the number of hours
+worked.
+Press the enter key after entering both values.
+The hourly rate  must be between $10.00 and $15.00 inclusively.
+The hours worked must be between 1 and 50 inclusively.
+
+Enter the hourly pay rate (Between $10.00 and $15.00 inclusively.) : 19.11
+Enter the hourly pay rate (Between $10.00 and $15.00 inclusively.) : 14.99
+Enter the number of hours worked (between 1 and 50 inclusively): 35
+
+Hourly Rate:    14.99
+Hours Worked:   35
+Gross Pay:      524.65
+FICA Tax:       31.48 at 0.06
+Federal Tax:    78.70 at 0.15
+State Tax:      26.23 at 0.05
+Union Dues:     10.00
+Net Pay:        378.24
+Net Hourly:     10.81
+
+Thank You!
+
+Press any key to continue . . .
