@@ -1,0 +1,117 @@
+P08   Jared Adamson
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: Create a new file for Payroll Information
+  B: Enter Payroll Information
+  C: List Payroll Information
+
+  X: Exit the Payroll Information Module
+
+Choice: c
+
+
+P08   Jared Adamson   List Payroll Information
+
+Employee Rate  Wk1 Wk2 Wk3 Wk4
+
+   234   43.00  22  11  33  44
+
+
+Procedure completed. Press Enter to continue:
+
+-----------------------------------------------------------
+P08   Jared Adamson
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: Create a new file for Payroll Information
+  B: Enter Payroll Information
+  C: List Payroll Information
+
+  X: Exit the Payroll Information Module
+
+Choice: c
+
+
+P08   Jared Adamson   List Payroll Information
+
+Employee Rate  Wk1 Wk2 Wk3 Wk4
+
+   345   12.00  33  55  44  33
+  3257   13.00  33  55  44  33
+    44   55.00  33  55  44  33
+    66   77.00  33  55  44  33
+
+
+Procedure completed. Press Enter to continue:
+-----------------------------------------------------
+P08   Jared Adamson
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: Create a new file for Payroll Information
+  B: Enter Payroll Information
+  C: List Payroll Information
+
+  X: Exit the Payroll Information Module
+
+Choice: a
+
+
+P08  Jared Adamson   Create new file for Payroll Information
+
+Creating a new file will delete any existing information.
+Do you want to proceed with creating a new file? (Y/N) y
+
+  New file created successfully!
+
+Procedure completed. Press Enter to continue:
+----------------------------------------------------------
+P08   Jared Adamson
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: Create a new file for Payroll Information
+  B: Enter Payroll Information
+  C: List Payroll Information
+
+  X: Exit the Payroll Information Module
+
+Choice: c
+
+
+P08   Jared Adamson   List Payroll Information
+
+Employee Rate  Wk1 Wk2 Wk3 Wk4
+
+  4523   23.00  45  66  77  88
+
+
+Procedure completed. Press Enter to continue:
+----------------------------------------------------
+
+P08   Jared Adamson
+
+Enter the letter of the desired menu option.
+Press the Enter key after entering the letter.
+
+  A: Create a new file for Payroll Information
+  B: Enter Payroll Information
+  C: List Payroll Information
+
+  X: Exit the Payroll Information Module
+
+Choice: x
+
+
+Now exiting Payroll Information...please wait.
+
+Press any key to continue . . .
+
+
+--------------------------------------------------
