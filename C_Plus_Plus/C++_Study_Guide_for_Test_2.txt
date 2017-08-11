@@ -1,0 +1,346 @@
+What are the valid data types that can be used in the controlling expression of a <em>switch</em> statement?
+<em>bool</em>, <em>int</em>, <em>char</em>, and <em>enum</em>.
+
+Why is the <em>switch</em> statement good for processing menu choices?
+It presents a list of alternatives on the screen for the user to choose from.
+
+Can the <em>break</em> statement be used in <em>switch</em>, while, <em>do-while</em>, and <em>for-loops</em>?<span style="top:67px; left:90px; margin-left:-54px; opacity:1;" class="smarterwiki-popup-bubble smarterwiki-popup-bubble-active smarterwiki-popup-bubble-flipped"><em></em><span class="smarterwiki-popup-bubble-body"><span class="smarterwiki-popup-bubble-links-container"><span class="smarterwiki-popup-bubble-links"><span class="smarterwiki-popup-bubble-links-row"></span><span class="smarterwiki-popup-bubble-links-row"></span></span></span></span></span>
+Yes.
+
+What does the <em>break</em> statement do in <em>while</em>, <em>do-while</em>, and <em>for-loops</em>?<span style="top:67px; left:64px; margin-left:-54px; opacity:0.25;" class="smarterwiki-popup-bubble smarterwiki-popup-bubble-active smarterwiki-popup-bubble-flipped"><span class="smarterwiki-popup-bubble-tip"></span><span class="smarterwiki-popup-bubble-body"><span class="smarterwiki-popup-bubble-links-container"><span class="smarterwiki-popup-bubble-links"><span class="smarterwiki-popup-bubble-links-row"></span><span class="smarterwiki-popup-bubble-links-row"></span></span></span></span></span>
+It causes the loop statement to end immediately and execution continues with the statement following the loop.
+
+What does the <em>continue</em> statement do in a <em>while</em>, <em>do-while</em>, and <em>for-loops</em>?<span style="top:67px; left:90px; margin-left:-54px; opacity:0.25;" class="smarterwiki-popup-bubble smarterwiki-popup-bubble-active smarterwiki-popup-bubble-flipped"><span class="smarterwiki-popup-bubble-tip"></span><span class="smarterwiki-popup-bubble-body"><span class="smarterwiki-popup-bubble-links-container"><span class="smarterwiki-popup-bubble-links"><span class="smarterwiki-popup-bubble-links-row"></span><span class="smarterwiki-popup-bubble-links-row"></span></span></span></span></span>
+The <em>continue</em> statement transfers control to the update expression.
+
+What are the 3 parts of the <em>for-loop</em> definition?
+1. Initialization action.
+2. Boolean expression thats used to check for when the loop should end.
+3. How the loop control variable is updated after each iteration of the loop body.
+i.e. <strong><em>(int num =1; num &lt;= 10; num++)</em></strong>
+
+In the initialization action, if the controlling variable is not already defined, can it be defined as a local variable of the <em>for-loop</em>?
+Yes.
+
+Why use files?
+Files provide a way to store data permanently, the file remains after the program has finished running, and there's no need to type data over and over.
+
+What is sequential file processing?
+It is the processing the records in the order they are stored in a file.
+
+What is the definition of an object?
+Objects are variables declared using a class as the data type.
+
+What is the definition of a class?
+A Class is a data type that has data (variables and values) as well as functions associated with it.
+
+When should the <em>close</em> member function be used?
+When the program is finished getting input from the file or sending output to the file. It disconnects the stream from the file.
+i.e.<strong><em> inStream.close( ); </em></strong>and <strong></strong><em><strong>outStream.close( );</strong></em>
+
+What is considered the external filename?
+The actual name of the file.
+
+What is considered the internal filename?
+The name of the object.
+
+What is passed to the <em>open</em> function as an argument? The internal or external name?
+The external name in double quotes enclosed in parentheses.
+i.e:<strong><em> outStream.open("outfile.dat");</em></strong>
+
+What filename is declared when declaring an <em>ifstream</em> or <em>ofstream</em> object?
+The internal filename is declared.
+<strong><em>ifstream inStream;</em></strong>
+or
+<strong><em>ofstream outStream;</em></strong>
+
+When should the <em>fail</em> member function be used?
+To test whether a stream operation has failed.
+i.e:<strong><em> inStream.fail( );</em></strong>
+
+The <em>eof</em> flag is set when the program attempts to read past the end of file. How should we use the <em>eof</em> member function in a program?
+To test that we are NOT at the end of a file. Its used with a not in front.
+<em><strong>if(! fin.eof( ))</strong>
+<strong>...</strong>
+<strong>else</strong></em>
+<strong>...</strong>
+
+<question>
+When calling a member function, the following syntax is used:
+i.e:<strong><em> objectName.memberName(arguments);</em></strong><em></em>
+</question>
+
+
+<question>
+In the example function call <em><strong>outFile.open("outfile.dat")</strong>
+outfile</em> is the <em>objectName,
+open </em>is the<em> memberName, </em>and<em>
+outfile.dat </em>is the argument.<em>
+</em>
+</question>
+
+
+Can the formatting flags (<em>precision, width</em>, etc) be used when writing to a file?
+Yes, it tells the computer to write output to that stream in some specific way.
+
+Can the formatting functions (<em>precision, width</em>, etc) be used when writing to a file?
+Yes.
+
+Which formatting function is needed to right align numeric information?
+i.e:<strong><em> ios::right</em></strong>
+
+What are manipulators?
+A Manipulator is a function that is called using the insertion operator as if it were a call to be output.
+i.e:<strong><em> cout &lt;&lt; setw(6);</em></strong>
+
+What characters are considered whitespace?
+Blank or space character, tab, and the new-line character.
+
+What to the <em>toupper( )</em> and <em>tolower( )</em> functions do?
+Converts uppercase letters to lowercase and vice versa.
+
+What to the <em>isupper( )</em> and <em>islower( )</em> functions test for?
+They test if the character expected is true to an uppercase or lowercase letter is provided, otherwise returns false.
+
+What is an array?
+It is a list of variables with a uniform naming mechanism that can be declared in a single line of simple code.
+
+Each array element is referenced by an index, which is sometimes called a subscript.
+
+
+What is the declared size of an array?
+It is the size of the array given in braces.
+i.e. <strong><em>arraySize[10];</em></strong>
+
+If the declared size is stored in a variable like MAX_SIZE, must it have a <em>const</em> modifier?
+Yes.
+
+When an array is declared, is the declared size stored anywhere by C++ automatically?
+No, the computer reserves enough memory to hold the declared size. 
+The address of the first entry and the base type.
+
+Is the first element in the array referenced with an index of 0 or 1?
+The first element in an array is always referenced with an index of 0.
+
+When does an index become an out of range index?
+When an attempt to reference a nonexistent array index is made.
+
+Who must check for an out of range condition? C++ or the programmer?
+The programmer who wrote the array.
+
+For an array declared as <em>int student[5]</em>, how many <em>int</em> elements are declared?
+5 with indexes from 0 through 4.
+i.e. <strong><em>student[0]</em></strong> is the first and <strong><em>student[4]</em></strong> is the last.
+
+In the declared array, <em>int student[5]</em>, what index value would reference the last valid array element?
+<strong><em>student[4]</em></strong>
+
+In the declared array, <em>int student[5]</em>, what would be the first index value that would be considered out-of-range?
+<strong><em>student[5]</em></strong>
+
+What type of parameter in a function definition is used to pass the address of where the array begins?
+An array parament.
+i.e. <strong><em>void displayQty(int qty[], int arraySize);</em></strong>
+
+Can a single array element be passed to a function?
+Yes.
+
+Why is an array parameter more like a call-by-reference than a call-by-value parameter?
+Because the memory address is sent when a call is made to an array parameter.
+
+What modifier can be used with an array parameter to simulate a call-by-value?
+Using the <em>const</em> modifier prohibits functions from changing values in arrays.
+
+Why do we need to pass the declared size to a function?
+It is important for processing so its size must be passed to functions.
+
+Why do we need to keep track of how many items were loaded into a partially filled array?
+So that the array isn't overfilled and does not reference any indexed variable that has not been given a value.
+
+Why do we need to pass the number used or the number of items loaded to a function?
+So the values of the indexed variables of the array argument can be changed by the function.
+
+What are multidimentional arrays?
+Its is an array with more that 1 index, which is actually an array of arrays.
+
+How many subscripts [] are needed to reference a particular element in a multidimensional array?
+2, row by column.
+
+What row and column in a multidimensional array would the element <em>qty[2][2]</em> be located?
+Third row, third column.
+
+What is a <em>cstring</em> variable?
+It is an array of of <em>char</em> (characters), its a string type inherited from the C language.
+
+What is the base type of <em>cstring</em> arrays?
+Non-numeric characters.
+
+What is the Null character and what is its purpose in <em>cstring</em> processing?
+'\0'
+Which is represented as an escape character which marks the end of the cstring.
+
+What is the purpose of the cstring functions <em>strlen, strcpy, strcmp, strncpy, strncmp</em>?
+<em>strlen</em>: returns an integer equal to the length of the string.
+<em>strcpy</em>: copies the cstring value from 1 string to a target string.
+<em>strcmp</em>: compares 2 strings, 0 if equal, &lt;0 if less than, &gt;0 if greater.
+<em>strncpy</em>: copies the cstring value from 1 string to a target string, with limit characters.
+<em>strncmp</em>: compares 2 strings, 0 if equal, &lt;0 if less than, &gt;0 if greater than, with limit characters compared.
+
+What are the equivalents of <em>strcpy, strlen, </em>and <em>strcmp</em> for the class string?
+<em>string str </em>is to <em>strcpy
+str.length( )</em> is to <em>strlen
+str1 == str2, str1 != str2, </em>is to <em>strcmp</em>
+
+<question>
+What is the purpose of a structure?
+struct Name
+{ 
+ double num1; 
+ double num2; 
+ int length;
+};
+<span style="top:167px; left:19px; margin-left:-54px; opacity:1;" class="smarterwiki-popup-bubble smarterwiki-popup-bubble-active smarterwiki-popup-bubble-flipped"><span class="smarterwiki-popup-bubble-body"><span class="smarterwiki-popup-bubble-links-container"><span class="smarterwiki-popup-bubble-links"><span class="smarterwiki-popup-bubble-links-row"></span><span class="smarterwiki-popup-bubble-links-row"></span></span></span></span></span>
+</question>
+To combine data of different types into a single (compound) data value.
+<em></em>
+
+What is included in a structure definition?
+1. The tag <em>struct </em>followed by the <em>NameOfStruct</em>
+2. Open brace, {
+3. Member variables
+4. Closing brace with semicolon, };
+
+<question>
+What is a class?
+<em>class NameOfClass
+{
+ private:
+ void input( );
+ void output( );
+ public:
+ variable1;
+ variable2; 
+};</em>
+</question>
+A Class is a definition of a new data type whose variables are objects?
+
+What is an object?
+A Object is a variable declared using a class definition as the data type. It has member functions as well as the ability to hold data values.
+
+What should be included in a class definition?
+Member variables as well as associated functions.
+
+Where should the actual class function definitions be entered?
+Before the <em>main</em> part of the program.
+
+How are member variables and functions referenced after declaring an object?
+With the scope resolution operator. <strong>::</strong><em></em>
+i.e:<strong><em> void ClassName::functionName(parameter list);</em></strong>
+
+What is the difference between public and private variables?
+<em>public</em>: can be referenced and altered by functions outside of the class.
+<em>private</em>: can only be referenced and altered by member functions.
+
+What is the difference between public and private functions?
+<em>public</em>: can be called by functions outside of the class.
+<em>private</em>: can only be called by member functions.
+
+What is the purpose of accessor functions?
+It keeps programmers from referencing variables that they shouldn't.
+
+How many values should accessors return?
+The accessor function need not literally return the values of each member variable but they must return something equivalent to those values.
+
+What is a constructor?
+A Constructor is a member function of a class that is called automatically when an object of the class is declared.
+
+What are rules in naming constructors?
+1. Same name as the class.
+2. Cannot return a value.
+3. Used to initialize member variables.
+4. Automatically called when an object of that class type is declared.
+
+Should constructors be public or private?
+Public.
+
+Can constructors be overloaded?
+Yes, with the same function name but with a different number or type of parameters.
+
+Can constructors return a value?
+No value is returned.
+
+When are constructors called?
+When an object of that class type is declared.
+
+Can constructors be called explicitly?
+Yes, after an object has been declared.
+
+Does the compiler define a default constructor if one is not defined by the programmer?
+Yes, a default constructor should always be defined with no parameters.
+
+What is a destructor?
+A member function that is automatically called when an object goes out of scope.
+i.e. <strong><em>~DestructorNameOfClass;</em></strong>
+
+What are rules in naming destructors?
+1. Must be public.
+2. Same name as the class.
+3. Begins with a <strong>~</strong> tilde.
+4. Cannot return a value.
+5. No return type, not even void.
+
+When are destructors called?
+When an object goes out of scope.
+
+What is an abstract data type (ADT)?
+It is a data type that details are not needed to know about how the values and operations for that type are implemented.
+
+What does the interface tell us about an ADT?
+It tells us how to use the ADT. It consists of the public member functions of the class along with the comments that tell you how to use these public member functions.
+
+What does the implementation tells us about an ADT?
+Its the actual C++ code. It contains private variables and members of the class and the definitions of public and private member functions.
+
+Why are functions named as<em> </em>friend functions of a class?
+It grants access to private members.
+
+Do friend functions gain access to the public or private variables and functions?
+Access is gained to private variables and functions.
+
+What is the definition of inheritance when talking about classes?
+Inheritance is the process by which a new class is created from another class but the new class has additional member variables and/or functions.
+
+What is a base and derived class?
+Base class: is the highest class and does not inherit from any other class.
+Derived class: is created from a base class. It has all the member variables and functions from the base class with additional variables and functions.
+
+What is a parent and child class?
+A parent class would be a base class.
+A child child class would be a derived class from a parent class.
+
+How are protected class members inherited in the derived class?
+Inherited protected members are inherited in the derived class by being marked <em>protected</em> in the derived class. It then can be accessed by name in the definitions of all descendent classes.
+
+What is stored in the interface file?
+The interface file includes all of the class definitions (<em>public, private, </em>and <em>protected</em>). 
+It saves contents in a header file and is not compiled.
+
+What is stored in the implementation file?
+The implementation file <em>#includes</em> the interface file and class function definitions.
+It saves contents to a <em>.cpp</em> file and must be compiled.
+
+What is stored in the application file?
+The application file contains <em>main</em> and <em>#include</em> interface file since the object will be declared and members referenced in the app.
+Main, function declarations, and definitions that make the app are store in the app file in a <em>.cpp</em> file and must be compiled.
+
+What is the purpose of <em>#ifndef, #define, </em>and <em>#endif</em>?
+<em>#ifndef</em>: checks if some macro is defined or not.
+<em>#define</em>: tells the preprocessor compiler has been defined.<em>
+#endif</em>: is the end of the <em>#ifndef</em> condition.
+
+In what order should, <em>#ifndef, #define, </em>and<em> #endif</em>, be entered into a program?
+<em>#ifndef NAME_H
+#define NAME_H
+...class definition...
+#endif // End of NAME_H</em>
+
